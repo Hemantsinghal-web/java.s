@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="img_1.jpg" height="200px" alt="" onmouseenter="fun()">
+    <img src="burger_img.jpg" height="200px" alt="" onmouseenter="fun1()">
+
+    <div>
+        <img src="img_1.jpg" height="400px" alt="" id="img">
+    </div>
+
+    <script>
+     
+     let img = document.querySelector('#img')
+      function fun1(){
+            img.src="burger_img.jpg"
+      }
+
+      function fun(){
+            img.src="img_1.jpg"
+      }
+
+    </script>
+</body>
+</html>
