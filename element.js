@@ -17,4 +17,4 @@ head_element.removeAttribute('align')
 
 let img  =  document.querySelector('#img')
 img.setAttribute('src','burger_img.jpg')
-// img.setAttribute('height','500px')
+img.setAttribute('height','500px')
