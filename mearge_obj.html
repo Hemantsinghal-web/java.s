@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+//spread operator{mearge 2 object }
+
+    let obj1 = {
+        name : "hemant",
+        age : 20
+    }
+
+    let obj2 = {
+        cont : 546516584
+    }
+
+    let obj3 = {
+        ...obj1,...obj2
+    }
+
+    console.log(obj3);
+
+
+    //values in the form of array
+
+    let obj = {
+        name : "tinku",
+        age : 45,
+        location : "bhopal"
+    }
+
+    let val = Object.values(obj)
+    console.log(val);
+
+
+    let key = Object.keys(obj)
+    console.log(key[2]);
+
+    //delete key from object using delete key word
+
+    delete obj.location
+    console.log(obj);
+    
+    
+    
+    
+</script>
+
+</body>
+</html>
