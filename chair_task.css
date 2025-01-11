@@ -1,0 +1,36 @@
+body
+{
+    background-color: lightsalmon;
+}
+
+.row1
+{
+   
+    gap: 50px;
+    /* margin-left: 200px; */
+    font-size: 80px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 30px; */
+}
+
+.row2
+{
+   
+    gap: 50px;
+    /* margin-left: 200px; */
+    font-size: 80px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 30px; */
+
+}
+
+
+h1
+{
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
