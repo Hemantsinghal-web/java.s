@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // localStorage.setItem("name","hemant")
+        // localStorage.setItem("sername","singhal")
+        // localStorage.setItem("class","JS")
+        // localStorage.setItem("date","23/1")
+        // localStorage.setItem("text","hello")
+
+
+        // let a = localStorage.getItem("name")
+        // document.write("<h1> " + a + "</h1>");
+
+        // let b = localStorage.getItem("sername")
+        // document.write("<h1> " + b + "</h1>");
+
+
+        // localStorage.removeItem("name")
+
+
+        // //clear
+        // localStorage.clear()
+
+
+
+
+        //to store multi value
+        let person_ob = {
+            name : "hemant singhal",
+            email : "singhal@mail.com",
+            password : "546s5ef132f"
+        }
+
+        localStorage.setItem("userdata",JSON.stringify(person_ob))
+        let data = JSON.parse(localStorage.getItem("userdata"))
+        console.log(data);
+        
+</script>
+</body>
+</html>
