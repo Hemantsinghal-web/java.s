@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+<form action="login_localstorage.html" onsubmit="datasubmit()">
+    <label for="">Name</label>
+    <input type="text" id="uname" placeholder="Enter Name"> <br><br>
+
+   
+
+    <label for="">Password</label>
+    <input type="text" id="upsw" placeholder="Enter Password">
+
+   <button>sign up</button> <br><br>
+   
+
+
+    
+</form>
+
+
+
+<script>
+    const datasubmit = () => {
+        let userdata = {
+            name : document.querySelector("#uname").value,
+            
+            psw : document.querySelector("#upsw").value
+        }
+
+        localStorage.setItem("userdata",JSON.stringify(userdata))
+    }
+</script>
+
+</body>
+</html>
